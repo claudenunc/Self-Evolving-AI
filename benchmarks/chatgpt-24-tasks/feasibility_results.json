@@ -1,0 +1,118 @@
+{
+  "scope": "Local deterministic feasibility pilot; not an isolated model trial",
+  "date": "2026-10-03",
+  "checks": [
+    {
+      "check": "T09 net revenue",
+      "actual": 175,
+      "expected": 175,
+      "passed": true
+    },
+    {
+      "check": "T09 net units",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "check": "T10 break-even customers",
+      "actual": 20,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "check": "T10 profit at 24",
+      "actual": 60,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "check": "T19 scenario profits",
+      "actual": [
+        -150,
+        0,
+        60
+      ],
+      "expected": [
+        -150,
+        0,
+        60
+      ],
+      "passed": true
+    },
+    {
+      "check": "T11 preserves zero/order",
+      "actual": [
+        0,
+        "0",
+        "a"
+      ],
+      "expected": [
+        0,
+        "0",
+        "a"
+      ],
+      "passed": true
+    },
+    {
+      "check": "T11 all excluded",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "check": "T11 negative number/order",
+      "actual": [
+        -1,
+        0,
+        "x"
+      ],
+      "expected": [
+        -1,
+        0,
+        "x"
+      ],
+      "passed": true
+    },
+    {
+      "check": "T12 empty",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "check": "T12 known average",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "check": "T12 negative/zero",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "T17 vendor A six-month total",
+      "actual": 300,
+      "expected": 300,
+      "passed": true
+    },
+    {
+      "check": "T17 vendor B six-month total",
+      "actual": 330,
+      "expected": 330,
+      "passed": true
+    },
+    {
+      "check": "T17 build six-month total",
+      "actual": 960,
+      "expected": 960,
+      "passed": true
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "elapsed_seconds": 4.182199995739211e-05,
+  "model_runs": 0
+}

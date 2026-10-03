@@ -1,0 +1,14 @@
+interface:
+  display_name: Teach and Repeat
+  short_description: Turn completed work into reusable teaching guides
+  default_prompt: Use $teach-and-repeat to complete this task, document the steps,
+    and preserve a reusable workflow.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

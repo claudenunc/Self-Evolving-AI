@@ -1,0 +1,32 @@
+[
+  {
+    "name": "evidence-research",
+    "installed_at_prior_handoff": true,
+    "source_copy": "skills/evidence-research/SKILL.md",
+    "scope": "Prior installation evidence; copying this repository does not install a skill."
+  },
+  {
+    "name": "decision-experiment",
+    "installed_at_prior_handoff": true,
+    "source_copy": "skills/decision-experiment/SKILL.md",
+    "scope": "Prior installation evidence; copying this repository does not install a skill."
+  },
+  {
+    "name": "verified-execution",
+    "installed_at_prior_handoff": true,
+    "source_copy": "skills/verified-execution/SKILL.md",
+    "scope": "Prior installation evidence; copying this repository does not install a skill."
+  },
+  {
+    "name": "research-to-implementation",
+    "installed_at_prior_handoff": true,
+    "source_copy": "skills/research-to-implementation/SKILL.md",
+    "scope": "Prior installation evidence; copying this repository does not install a skill."
+  },
+  {
+    "name": "teach-and-repeat",
+    "installed_at_prior_handoff": true,
+    "source_copy": "skills/teach-and-repeat/SKILL.md",
+    "scope": "Prior installation evidence; copying this repository does not install a skill."
+  }
+]

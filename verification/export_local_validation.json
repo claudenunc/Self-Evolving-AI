@@ -1,0 +1,11 @@
+{
+  "scope": "Local export integrity, links, ZIP CRC, PDF headers, common live-secret patterns",
+  "passed": true,
+  "payload_files": 75,
+  "payload_bytes": 1646095,
+  "local_links_checked": 20,
+  "zip_archives_checked": 1,
+  "secret_scan": "Limited pattern scan; screenshots were reviewed separately",
+  "model_trials_run": 0,
+  "problems": []
+}

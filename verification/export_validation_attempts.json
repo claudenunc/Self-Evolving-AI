@@ -1,0 +1,23 @@
+{
+  "scope": "Actual local export validation attempts; not model benchmarks",
+  "attempts": [
+    {
+      "scope": "Local export integrity, links, ZIP CRC, PDF headers, common live-secret patterns",
+      "passed": false,
+      "payload_files": 73,
+      "payload_bytes": 1644479,
+      "local_links_checked": 20,
+      "zip_archives_checked": 1,
+      "secret_scan": "Limited pattern scan; screenshots were reviewed separately",
+      "model_trials_run": 0,
+      "problems": [
+        {
+          "path": "docs/teaching/GitHub_Preservation_Guide.md",
+          "issue": "broken local link",
+          "target": "../../verification/export_local_validation.json"
+        }
+      ]
+    }
+  ],
+  "recovery": "The linked receipt is created by the first run; rerun after its creation."
+}

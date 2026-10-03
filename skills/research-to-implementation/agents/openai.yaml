@@ -1,0 +1,14 @@
+interface:
+  display_name: Research to Implementation
+  short_description: Implement reviewed research and document the real results
+  default_prompt: Use $research-to-implementation to review this research, implement
+    its useful recommendations, and document the actual results.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,457 @@
+{
+  "date": "2026-10-03",
+  "repository": "claudenunc/Self-Evolving-AI",
+  "scope": "Project payload; manifest and verification receipts excluded to avoid self-reference",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 65,
+      "sha256": "5e4bbc5f12fcee3b72b3130fdeb3aa8bc3a1f128d0596c830495d06901c364ed",
+      "git_blob_sha1": "623feaa75c83f164ab1377ee5c436bc99711a840"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 120,
+      "sha256": "2eac7e3a7c6ea6f4571a2935b0cbb669fb8ebd49f4a02e973930b2110e859bc3",
+      "git_blob_sha1": "88bb1938a11da591af6edd74d49d312eba7d683d"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2255,
+      "sha256": "460b0c9ec2bd3b282089c40af3ec572f8b35518a2e8c0ca8aea05f71ee223fe2",
+      "git_blob_sha1": "7f487b17d2db3d743b5e05621744d3b112ea718a"
+    },
+    {
+      "path": "BACKLOG_AND_EXPERIMENTS.md",
+      "bytes": 2018,
+      "sha256": "aa45015c7752c70296eb4b8983df0e7ce97b3d1398fb7e8e5497b1f47ff8fdef",
+      "git_blob_sha1": "94c4e3e5a608df04956e40bb3f27007c6f38416a"
+    },
+    {
+      "path": "DECISIONS_AND_EVIDENCE.md",
+      "bytes": 3179,
+      "sha256": "a2310a9c6befec87eb3869eb612a319c71855faab3334a6ab041ba99b586d4e7",
+      "git_blob_sha1": "31ca9b800ed5083b5f8debae57d4109aaf3a2489"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 2042,
+      "sha256": "6ce688a5e201e1b9d657ad218b958fd7f80696215844ab9ed6fc759c912655de",
+      "git_blob_sha1": "3524f8d80cd815ab30465d7102e1e17760bbb4cc"
+    },
+    {
+      "path": "PROJECT_BRIEF.md",
+      "bytes": 3265,
+      "sha256": "98da9a0e28ec64d2545f16ed3516427fffa457b61e83be0f71cac98ca8fa2ca3",
+      "git_blob_sha1": "3f1d2e5e158697f173b2fdea00526b632013cd96"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3346,
+      "sha256": "5f69ee82fdb644ed02b2ddac91729a597c1a4de8a88e33d711a9f6121cdafecf",
+      "git_blob_sha1": "683d8184fae348b721808a9000da78691e004f35"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/AI_Platform_Intelligence_Pilot.md",
+      "bytes": 3541,
+      "sha256": "6712bd749d2c411df15c03191f3898dec9d8510e55769a8946f2abcfe8e0d4ee",
+      "git_blob_sha1": "2fe5035816ec0904e38d91a7b9c23df20fd45d2a"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/BACKLOG_AND_EXPERIMENTS.md",
+      "bytes": 1604,
+      "sha256": "25c43e1aec5808b267b56249693bbcf3dd5e53fccfbbd363bfb473379b5bf4f4",
+      "git_blob_sha1": "eb672198cb5e4d45d4487ee3b48a7c1589b98087"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Benchmark_24_Tasks.zip",
+      "bytes": 12011,
+      "sha256": "605adf8af489c85ff5e7c0d263329410454e6414a10b45ee7c440577bd5766b2",
+      "git_blob_sha1": "ea97a9b930ef58de83f961cce77d419b60a00f4e"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Copy_Paste_Configuration.md",
+      "bytes": 14292,
+      "sha256": "3ab49bc10a18e93075019178d376dbcd0184a3e62b22dbddbd669b56de797165",
+      "git_blob_sha1": "cc5eab957eb3a736cf074539aa6f3ee1a51c0685"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Instructions_Applied_1791052550877.jpg",
+      "bytes": 105913,
+      "sha256": "60e4e0cb8cadeb64e088a18ae7d03dcf584f32275323368490fd832912adc46d",
+      "git_blob_sha1": "c2e4e2554e11787067ab1b3ea00d58882f5f978d"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Applied_Instructions.md",
+      "bytes": 4448,
+      "sha256": "fab8ff4837749a36c9d4931960338ffe56821404413b84c1874fda29dbb3cb41",
+      "git_blob_sha1": "8c8d8320a658771f97aac166afe33d3074ec63e2"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Teaching_Guide.md",
+      "bytes": 9060,
+      "sha256": "144277017a02dc4fbbe776017a9b548a614c58bbb193472af0c1a31437fed08d",
+      "git_blob_sha1": "9d901e1018d36d0ab28d58733a3db9eafa9745fc"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Terminal_Recording.cast",
+      "bytes": 9490,
+      "sha256": "020919791b0b03d522d29975166b2aa66a7b033a82890274bd72bac0a38e1462",
+      "git_blob_sha1": "18e62755b94c81f53ef1ffce057943d44ea677c9"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Terminal_Walkthrough.mp4",
+      "bytes": 372691,
+      "sha256": "7e92204c0c3fefa596e732b2a2d41a7b57fa11aea61b25acd4e4dc297d205d69",
+      "git_blob_sha1": "5707039a3dfd7c7b7fdd0ae4cd4066f2c06c421b"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Operating_System_Research.md",
+      "bytes": 86840,
+      "sha256": "5148cc93b5f3e7d12ccc0f70fd84fb294dbff1e9e3c34ffc3da98f3c73bf2230",
+      "git_blob_sha1": "dfc2bd2d5385d1479d1e53a12751381e0134e3c5"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/Codex_Instructions_Applied_1791052676143.jpg",
+      "bytes": 92646,
+      "sha256": "57d052f728e88ae7b59bd950a48ec2c62e217a34e48ffc135415cee9298a8f08",
+      "git_blob_sha1": "27cd7d563f38af8b85280dee5871681fa7736af8"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/DECISIONS_AND_EVIDENCE.md",
+      "bytes": 3423,
+      "sha256": "00f0580797ad3ef46d23d2f57304128826ab3654c3a97dd91d0421d94323ae4c",
+      "git_blob_sha1": "a770a11c194d0694e4426c989f8ef378bcbd0706"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/HANDOFF.md",
+      "bytes": 2830,
+      "sha256": "bbe992c38a4c331fcb1606fadbdc5f2ceeb71638333631fb7a0b3e44ecd0d1ff",
+      "git_blob_sha1": "16a776b39c6660cecaf0fb18cfc02b9d5ac06c6b"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ORIGINAL_RESEARCH_REQUEST.md",
+      "bytes": 28293,
+      "sha256": "f89de1fee3e903c98dc7b25161393bc6e680a3b34a8a8bafec358ac7079eb692",
+      "git_blob_sha1": "2abf2ba03d6278d86f1306e0fe7b6f09afdf255f"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/PROJECT_BRIEF.md",
+      "bytes": 4210,
+      "sha256": "51898b8abc37290f0c4e2ce6ef3bc9b9ee53881296e50b55ee76e06ef42ebe31",
+      "git_blob_sha1": "bb044b0ed5b74efdb42c0cfeed01e3d401299b96"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/Self_Improvement_Sources_Ready_1791053480202.jpg",
+      "bytes": 44523,
+      "sha256": "0bfadcc185dec26999796a2783fb3ff7c60249ff6a9ea73772ceeeb7915155eb",
+      "git_blob_sha1": "1b4fab1e8180b88f82848b12edf574eba95f6c1d"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/chapters.jsonl",
+      "bytes": 8782,
+      "sha256": "f3d5b5c13a42b58fa1e1b379e91f4292986b5ca79774a302b8badb09670747dd",
+      "git_blob_sha1": "176de748e6ee208ee0135a4b041ca2669378cfea"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/pdf/ChatGPT_OS_Teaching_Guide.pdf",
+      "bytes": 352050,
+      "sha256": "bf46cdb0d680e4064cf67e71c870e2cfaa2fecceae7dad4e9a9447597a5a7581",
+      "git_blob_sha1": "d252189bb932d03cd94d55d2584f618a951bab61"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/pdf/ChatGPT_Operating_System_Research.pdf",
+      "bytes": 213847,
+      "sha256": "1f7e9c7d2229428ea9267a37a197bbb52e56d554a1a083c629ef6ad0db5f180b",
+      "git_blob_sha1": "d08ffd4d549e45002d02ea6fc67c528d2fc7fd6a"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/video_chapters.json",
+      "bytes": 1850,
+      "sha256": "fa2a5499ddeebc64b48c647db5dcb9c62a5cbc288f1114158884940a3d3b44a3",
+      "git_blob_sha1": "b3d399417fe648d4d060befe709eca191513275c"
+    },
+    {
+      "path": "archive/source-scripts/README.md",
+      "bytes": 578,
+      "sha256": "29406ec526fff52222a43d27053b7bd33d4b576e88f554b61210bf5013d92f09",
+      "git_blob_sha1": "e6561641ef628514327e1db96738e4f1effd2f87"
+    },
+    {
+      "path": "archive/source-scripts/build_benchmark.py",
+      "bytes": 24275,
+      "sha256": "dac4555fc84d4970f50fe53ea00d404533b15a675fc7029462ce9f940dece18d",
+      "git_blob_sha1": "07a2a6346307d6663450836bf42f62d59ab674f4"
+    },
+    {
+      "path": "archive/source-scripts/build_os_teaching_pdf.py",
+      "bytes": 4785,
+      "sha256": "16b5a6006591d01c997a945f53617e67052be94db6aa531a77e6e15aa24fd204",
+      "git_blob_sha1": "11d9e9a36bc40b1ade1bb9943e6c348785693fc3"
+    },
+    {
+      "path": "archive/source-scripts/capture_os_commands.py",
+      "bytes": 2533,
+      "sha256": "b9d658467d39fa10616a313fa6642add97686429a8468c832f82b1cb3021b738",
+      "git_blob_sha1": "4353c507d56619f20e4a1ba200451fc9f1ae3fdf"
+    },
+    {
+      "path": "archive/source-scripts/check_os_workflows.py",
+      "bytes": 1696,
+      "sha256": "9de4a9c4ce41b3d4d3263eaf576a8fdd16765bb25eaf7a54a04bdc297c397434",
+      "git_blob_sha1": "071e1ade9f9d178dc5c213d11b171fe259f8d8fa"
+    },
+    {
+      "path": "archive/source-scripts/render_os_recording.py",
+      "bytes": 5434,
+      "sha256": "4dcac7a4a3e80bbe60b3dd49798e6529a1a3679ef44a4807ebd8650e5b47d899",
+      "git_blob_sha1": "bc1720c15e8ec6f43ee9dcfe8de34d58da872d11"
+    },
+    {
+      "path": "archive/source-scripts/render_report.py",
+      "bytes": 10112,
+      "sha256": "79b48bf5f1e8d528fbff77cd6aed95542a5db8908e5afadb6506fe9daaf26dd1",
+      "git_blob_sha1": "83b3ceec9e9e86f99ae8fee14abbb114fdbc4d8e"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/README.md",
+      "bytes": 2193,
+      "sha256": "5e6d45a0431849bbb04ae55100ca51087185f263934371496884ab674f6fd3a7",
+      "git_blob_sha1": "b27a98d7a87fd07549e70fcc6a7cf6df67ee2939"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/benchmark.json",
+      "bytes": 26875,
+      "sha256": "fa36567dcee3de329fa1cafc0dfe922b1f051f9cce45db0ffa47af3297283da2",
+      "git_blob_sha1": "96b9c732e36079cf6cec05a9dabf2af43b48136e"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/configuration_lengths.json",
+      "bytes": 152,
+      "sha256": "bdfa10e4c65574fb5da81bfc6c7fd93b5d377979e7024731a9b489aaeb15a22e",
+      "git_blob_sha1": "3e0337b0fa3dac7139313df7923cbac22429bb30"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/feasibility_pilot.py",
+      "bytes": 2243,
+      "sha256": "bbe12a515e5bb21225aef74c223e0b3efda0ffd40d76415febd7cb863bed2673",
+      "git_blob_sha1": "3122b3880f257e5964048edfdffc2698209c2461"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/feasibility_results.json",
+      "bytes": 2092,
+      "sha256": "60823cb2d54b2c212c1b0e171f068558d91f216b1a702208550ed8e977542465",
+      "git_blob_sha1": "17addad2287efa4b56405028aec227a83f70fa50"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/fixtures.json",
+      "bytes": 2586,
+      "sha256": "0d0cda717ea4b6dcd06b4f707a1db268c8f08d50488c5a6999feaa5b13599fb4",
+      "git_blob_sha1": "cefbf3dddee291c3f384df865b731845f7d3d2aa"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/results_template.json",
+      "bytes": 109466,
+      "sha256": "222b4ee60f19b41b9d35d61e8c404790b29a4749ba799610c309a02b10e7f0bc",
+      "git_blob_sha1": "7404de7f8a4640d19105484473c4f291ac549608"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 3438,
+      "sha256": "4070f4144892e9fb5815c62d03c1c6f2b35bfe5f2443eb08aad7f7264ea0a398",
+      "git_blob_sha1": "13e0202633d7640b3187baf7530c3b7952f603ff"
+    },
+    {
+      "path": "docs/ROADMAP_PROPOSAL.md",
+      "bytes": 3843,
+      "sha256": "a05a932012c2dc2713b9cb2e07294c72cb154d0be463c31b2ac4b7450a15b791",
+      "git_blob_sha1": "26ca1454771ff1f4104b342308532252a1b19229"
+    },
+    {
+      "path": "docs/teaching/GitHub_Preservation_Guide.md",
+      "bytes": 6115,
+      "sha256": "d38a7a66b891936e6974a22fecc9816ad389c5964eba3bd335f4fa2b4cbad92f",
+      "git_blob_sha1": "ddc9569257a02d82b3a3429a10271946899ce51a"
+    },
+    {
+      "path": "examples/workflow-checks/README.md",
+      "bytes": 920,
+      "sha256": "51d7b7976df7b326b05cbed0f721653eb20a6e819b494e0572d4aecc36d25701",
+      "git_blob_sha1": "c58fda4c8807cb24f6625d6193ef098c47b6393a"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/CURRENT_BRIEF.md",
+      "bytes": 410,
+      "sha256": "c757cd8ccd66a0c3c9ffb9a795e605c281fb9a50ebfc75eb6dc400dacc241af7",
+      "git_blob_sha1": "2ab38c2ec9411a060cf231339b3d292d20a175dd"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/DECISIONS.md",
+      "bytes": 2335,
+      "sha256": "7e9710565364783a369c32c3c1fd5cbafe092b9d1392616517363cee0257a4f7",
+      "git_blob_sha1": "1a74a10426843c470e0dd3520db7486e8b3d99bb"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/IMPLEMENTATION_LEDGER.md",
+      "bytes": 3934,
+      "sha256": "c4d9bcd15afa7983d3e17965428485dd359da8d1aabccecc503ef644aa1e260b",
+      "git_blob_sha1": "e178bdaa8ff3ee24cfc689ad0626d2eef439378a"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/PROJECT_BRIEF.md",
+      "bytes": 1734,
+      "sha256": "2d7d3a38ebc4f91655d5a344fbe83a8e76b62041032cc5bf684e9ddb456049d1",
+      "git_blob_sha1": "dca14453eb81339022c98a3db3abb53d99794918"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/RESEARCH.md",
+      "bytes": 739,
+      "sha256": "b14d3889ed966180b97419383bc5df7245b7912a89e1396b2a2f53ca9a34dd59",
+      "git_blob_sha1": "02221c071a9ce2cd090fa11fe4f2f6145a712903"
+    },
+    {
+      "path": "examples/workflow-checks/teach-and-repeat/Teaching_Guide.md",
+      "bytes": 5183,
+      "sha256": "e3624c6d8c4d5d280b2f5416488127077c784230018caaa4902d58daa3bfa436",
+      "git_blob_sha1": "91179d6043085188d1114c6193a8a8af134ca738"
+    },
+    {
+      "path": "examples/workflow-checks/verified-execution/clean_rows.py",
+      "bytes": 241,
+      "sha256": "4766f98577cd19a3558c84f019080d04e9b1a25490cd47d32bf4ec7df708b167",
+      "git_blob_sha1": "ff8e8165df79c81855a0af4875f636b7ad9a0683"
+    },
+    {
+      "path": "scripts/check_workflows.py",
+      "bytes": 1701,
+      "sha256": "d56bcc90bc882492d28f0225fedc6abeb9f1550eca09d66edc87ba711d513ba4",
+      "git_blob_sha1": "d7b5784c3c3c92f4c52045b0bf695b76e485c862"
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "bytes": 4960,
+      "sha256": "33860ea2206eb58c6fbac28db140f1fef9e79abeebb34e1fad74fc6c8d19163e",
+      "git_blob_sha1": "ea830cb981a5a4bffc1eacc3eee016f042aa9593"
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 886,
+      "sha256": "494ee81d7064fbe71fcb32ad0aa9d4ec10ce0070fed0df8fb062543886f5e334",
+      "git_blob_sha1": "36a2735b3e4aff6c10c4fe27421fac1667868d94"
+    },
+    {
+      "path": "skills/decision-experiment/SKILL.md",
+      "bytes": 2111,
+      "sha256": "097e115de750d9d6c176817ee81f4dd71a828947f9ea4d9b4bd53fefa4d44840",
+      "git_blob_sha1": "eb3e14614b0fb511c902b440efabc6e082d4e783"
+    },
+    {
+      "path": "skills/decision-experiment/agents/openai.yaml",
+      "bytes": 374,
+      "sha256": "02adf5018b6484113a7909a4f82f3da4a1bd7646f05b20e3a77ef557e8251f9d",
+      "git_blob_sha1": "338fd6ae74ed3433b77cfe435172f0fcac7ccfec"
+    },
+    {
+      "path": "skills/decision-experiment/assets/icon.svg",
+      "bytes": 420,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "git_blob_sha1": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+    },
+    {
+      "path": "skills/evidence-research/SKILL.md",
+      "bytes": 1983,
+      "sha256": "369d4f3e877748bc18da8c78234338f83423a4bb51bf005492668164e01986d2",
+      "git_blob_sha1": "6c0d7ca4c948874e1a78a4262e7dab46d1050b9e"
+    },
+    {
+      "path": "skills/evidence-research/agents/openai.yaml",
+      "bytes": 383,
+      "sha256": "fbbe83da6168222a869cee6595ee68bf4f843c64792d87d102b9e45f6cd7d6a9",
+      "git_blob_sha1": "344c11a3eb2429391095bb35fd757107d579e35c"
+    },
+    {
+      "path": "skills/evidence-research/assets/icon.svg",
+      "bytes": 843,
+      "sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+      "git_blob_sha1": "3aa5522d9c0f47cbeaabca31dcbcb2111d99531b"
+    },
+    {
+      "path": "skills/research-to-implementation/SKILL.md",
+      "bytes": 4306,
+      "sha256": "b1d7e2e375e9710fb562c187a38762e1e0cc5993bc51bb37a6b4a419e553c847",
+      "git_blob_sha1": "69cdee43beb61ad477441df272d092611b44eb7d"
+    },
+    {
+      "path": "skills/research-to-implementation/agents/openai.yaml",
+      "bytes": 437,
+      "sha256": "78dab83b7ec5109746518b07a618407ffeb924dbf542c0bc1b61509b3b1872ce",
+      "git_blob_sha1": "4ddd8a573b29dd8ee762f121c82771bde87c040b"
+    },
+    {
+      "path": "skills/research-to-implementation/assets/icon.svg",
+      "bytes": 420,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "git_blob_sha1": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+    },
+    {
+      "path": "skills/teach-and-repeat/SKILL.md",
+      "bytes": 4618,
+      "sha256": "00176f781f50e7f5ab1e6c458f529e7c2dbfd80d595596cbaf26edb6efafa9a8",
+      "git_blob_sha1": "1f94ce06aefd5801dff323c15345c4bd2918475e"
+    },
+    {
+      "path": "skills/teach-and-repeat/agents/openai.yaml",
+      "bytes": 390,
+      "sha256": "e58b5ff254110d051917e9a0ffe244bccabe107bc6fed45beae9b2b1368ec608",
+      "git_blob_sha1": "72781429090c3d937665914b674b46f1937b3dd3"
+    },
+    {
+      "path": "skills/teach-and-repeat/assets/icon.svg",
+      "bytes": 1210,
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "git_blob_sha1": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+    },
+    {
+      "path": "skills/teach-and-repeat/references/secure-account-setup.md",
+      "bytes": 2579,
+      "sha256": "c81794adfe9c3fef0de2d62b0e4d7696319a5186cbb833cbd318e843328118ba",
+      "git_blob_sha1": "2941894ab3669bbe49775e7abaf40fa24da42d32"
+    },
+    {
+      "path": "skills/verified-execution/SKILL.md",
+      "bytes": 2088,
+      "sha256": "1f3fceae3b75a1a1a510a889ba4bd07bbc7adc4d1fdcb7bc4a41382ac117f0ab",
+      "git_blob_sha1": "bb68d43e26611a9dc498861a90af2c58b8d8814d"
+    },
+    {
+      "path": "skills/verified-execution/agents/openai.yaml",
+      "bytes": 372,
+      "sha256": "68bd650f76152481488109eb1866ae3f6518d78f00bb36f204103ad013cf2f23",
+      "git_blob_sha1": "c897d58f9c0449e7b01895b42826bdd004586481"
+    },
+    {
+      "path": "skills/verified-execution/assets/icon.svg",
+      "bytes": 786,
+      "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+      "git_blob_sha1": "f19f1b68e96ba7df24829e7aec93ebd17396a341"
+    },
+    {
+      "path": "verification/export_validation_attempts.json",
+      "bytes": 784,
+      "sha256": "1c48ecd69834a5e99cd58333f40bbd59b87e4298196c671b25ceb6025b82d520",
+      "git_blob_sha1": "3b26c6a283388b4b8eb06b2d1581c5b4413ba7fe"
+    },
+    {
+      "path": "verification/prior_report_validation.json",
+      "bytes": 713,
+      "sha256": "1ab6051e9be81eea34eade0af7e19e5b114f22e649b61669b653dd16ee1e58ce",
+      "git_blob_sha1": "f40a897093a4d38e475f8cb7f021596b398e3fdf"
+    },
+    {
+      "path": "verification/prior_skill_installations.json",
+      "bytes": 1185,
+      "sha256": "82567159aada128c3091c546771c4a87e618e0b20446d49484d49b11ccb64e84",
+      "git_blob_sha1": "3778fd89826eea812cf8b5d06d54695ce76d19db"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+interface:
+  display_name: Evidence Research
+  short_description: Research consequential questions with checked primary sources
+  default_prompt: Use $evidence-research to answer this question with current, checked
+    evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

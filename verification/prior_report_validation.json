@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-03",
+  "report_sections": 24,
+  "benchmark_tasks": 24,
+  "blank_trial_records": 144,
+  "model_runs": 0,
+  "local_assertions_passed": 14,
+  "pdf_pages": 33,
+  "pdf_bounds_pass": true,
+  "pdf_links": 202,
+  "files": [
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Operating_System_Research.md",
+      "bytes": 86840
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Copy_Paste_Configuration.md",
+      "bytes": 14292
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/pdf/ChatGPT_Operating_System_Research.pdf",
+      "bytes": 213847
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Benchmark_24_Tasks.zip",
+      "bytes": 12011
+    }
+  ]
+}

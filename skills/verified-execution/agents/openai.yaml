@@ -1,0 +1,14 @@
+interface:
+  display_name: Verified Execution
+  short_description: Finish an authorized outcome and check the usable result
+  default_prompt: Use $verified-execution to complete this outcome and verify the
+    result.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
