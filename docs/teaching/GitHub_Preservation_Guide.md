@@ -21,7 +21,7 @@ Prerequisites: an explicit destination, write access, current project sources, a
 | Add repeatable verification | Created a manifest with sizes, SHA-256 hashes, and expected Git blob IDs; checked links, archives, and common secret patterns. | [Local verification](../../verification/export_local_validation.json) reports actual checks |
 | Publish and independently verify | Publish the checked tree with the authenticated repository connection; confirm the branch commit and every exported blob. | [Remote verification](../../verification/remote_verification.json) identifies the checked commit; final handoff records success |
 
-The last row is complete only when the linked remote receipt exists and reports success. A prepared local commit or an upload attempt alone does not establish remote persistence.
+The final row completed: main pointed to payload commit 8efe56dd18f620bdb4ec921a71ac94f604a33349, and an independent recursive-tree read matched all 78 file paths, byte sizes, and Git blob IDs. The linked receipt records that check. A closing metadata commit adds the receipt and this completed handoff; the final task also checks that latest branch state. A prepared local commit or an upload attempt alone does not establish remote persistence.
 
 ## Observed failure and recovery
 
@@ -46,6 +46,15 @@ The shell push failed because no shell GitHub credential was available. The conn
 python3 scripts/verify_repository.py
 python3 scripts/check_workflows.py
 ```
+
+After fetching the published main branch, repeat the complete remote comparison:
+
+```bash
+git fetch origin main
+python3 scripts/verify_repository.py --remote-ref origin/main
+```
+
+This compares every tracked local path, byte size, and Git blob ID with the fetched commit, including the manifest and receipts. It reports the exact checked commit. It does not fetch or publish automatically.
 
 The first checks this export; the second repeats 11 deterministic fixture assertions. The prior benchmark contains 14 local feasibility assertions, separate from model-comparison trials. This backup performs no new six-way model benchmark.
 

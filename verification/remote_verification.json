@@ -1,5 +1,409 @@
 {
-  "state": "prepared",
-  "verified": false,
-  "scope": "Pending independent remote verification; no completed push claimed."
+  "verified": true,
+  "repository": "claudenunc/Self-Evolving-AI",
+  "branch": "main",
+  "payload_commit_sha": "8efe56dd18f620bdb4ec921a71ac94f604a33349",
+  "payload_tree_sha": "9dc67dfdfadf0c674fd056bd31f34b71c83cbd71",
+  "verified_files": 78,
+  "verified_bytes": 1665301,
+  "verification": "Independent GitHub branch/tree read; every path, byte size, and Git blob hash matches the reviewed local export.",
+  "scope": "Published payload before the closing verification/handoff metadata commit.",
+  "checked_on": "2026-10-03",
+  "force_update": false,
+  "privacy_exclusions": [
+    "One account/history screenshot",
+    "Credentials, login/session files and unrelated private material"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 65,
+      "git_blob_sha1": "623feaa75c83f164ab1377ee5c436bc99711a840"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 120,
+      "git_blob_sha1": "88bb1938a11da591af6edd74d49d312eba7d683d"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2255,
+      "git_blob_sha1": "7f487b17d2db3d743b5e05621744d3b112ea718a"
+    },
+    {
+      "path": "BACKLOG_AND_EXPERIMENTS.md",
+      "bytes": 2018,
+      "git_blob_sha1": "94c4e3e5a608df04956e40bb3f27007c6f38416a"
+    },
+    {
+      "path": "DECISIONS_AND_EVIDENCE.md",
+      "bytes": 3179,
+      "git_blob_sha1": "31ca9b800ed5083b5f8debae57d4109aaf3a2489"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 2042,
+      "git_blob_sha1": "3524f8d80cd815ab30465d7102e1e17760bbb4cc"
+    },
+    {
+      "path": "PROJECT_BRIEF.md",
+      "bytes": 3265,
+      "git_blob_sha1": "3f1d2e5e158697f173b2fdea00526b632013cd96"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3346,
+      "git_blob_sha1": "683d8184fae348b721808a9000da78691e004f35"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/AI_Platform_Intelligence_Pilot.md",
+      "bytes": 3541,
+      "git_blob_sha1": "2fe5035816ec0904e38d91a7b9c23df20fd45d2a"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/BACKLOG_AND_EXPERIMENTS.md",
+      "bytes": 1604,
+      "git_blob_sha1": "eb672198cb5e4d45d4487ee3b48a7c1589b98087"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Benchmark_24_Tasks.zip",
+      "bytes": 12011,
+      "git_blob_sha1": "ea97a9b930ef58de83f961cce77d419b60a00f4e"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Copy_Paste_Configuration.md",
+      "bytes": 14292,
+      "git_blob_sha1": "cc5eab957eb3a736cf074539aa6f3ee1a51c0685"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Instructions_Applied_1791052550877.jpg",
+      "bytes": 105913,
+      "git_blob_sha1": "c2e4e2554e11787067ab1b3ea00d58882f5f978d"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Applied_Instructions.md",
+      "bytes": 4448,
+      "git_blob_sha1": "8c8d8320a658771f97aac166afe33d3074ec63e2"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Teaching_Guide.md",
+      "bytes": 9060,
+      "git_blob_sha1": "9d901e1018d36d0ab28d58733a3db9eafa9745fc"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Terminal_Recording.cast",
+      "bytes": 9490,
+      "git_blob_sha1": "18e62755b94c81f53ef1ffce057943d44ea677c9"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_OS_Terminal_Walkthrough.mp4",
+      "bytes": 372691,
+      "git_blob_sha1": "5707039a3dfd7c7b7fdd0ae4cd4066f2c06c421b"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ChatGPT_Operating_System_Research.md",
+      "bytes": 86840,
+      "git_blob_sha1": "dfc2bd2d5385d1479d1e53a12751381e0134e3c5"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/Codex_Instructions_Applied_1791052676143.jpg",
+      "bytes": 92646,
+      "git_blob_sha1": "27cd7d563f38af8b85280dee5871681fa7736af8"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/DECISIONS_AND_EVIDENCE.md",
+      "bytes": 3423,
+      "git_blob_sha1": "a770a11c194d0694e4426c989f8ef378bcbd0706"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/HANDOFF.md",
+      "bytes": 2830,
+      "git_blob_sha1": "16a776b39c6660cecaf0fb18cfc02b9d5ac06c6b"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/ORIGINAL_RESEARCH_REQUEST.md",
+      "bytes": 28293,
+      "git_blob_sha1": "2abf2ba03d6278d86f1306e0fe7b6f09afdf255f"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/PROJECT_BRIEF.md",
+      "bytes": 4210,
+      "git_blob_sha1": "bb044b0ed5b74efdb42c0cfeed01e3d401299b96"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/Self_Improvement_Sources_Ready_1791053480202.jpg",
+      "bytes": 44523,
+      "git_blob_sha1": "1b4fab1e8180b88f82848b12edf574eba95f6c1d"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/chapters.jsonl",
+      "bytes": 8782,
+      "git_blob_sha1": "176de748e6ee208ee0135a4b041ca2669378cfea"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/pdf/ChatGPT_OS_Teaching_Guide.pdf",
+      "bytes": 352050,
+      "git_blob_sha1": "d252189bb932d03cd94d55d2584f618a951bab61"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/pdf/ChatGPT_Operating_System_Research.pdf",
+      "bytes": 213847,
+      "git_blob_sha1": "d08ffd4d549e45002d02ea6fc67c528d2fc7fd6a"
+    },
+    {
+      "path": "archive/chatgpt-os-2026-10-03/video_chapters.json",
+      "bytes": 1850,
+      "git_blob_sha1": "b3d399417fe648d4d060befe709eca191513275c"
+    },
+    {
+      "path": "archive/source-scripts/README.md",
+      "bytes": 578,
+      "git_blob_sha1": "e6561641ef628514327e1db96738e4f1effd2f87"
+    },
+    {
+      "path": "archive/source-scripts/build_benchmark.py",
+      "bytes": 24275,
+      "git_blob_sha1": "07a2a6346307d6663450836bf42f62d59ab674f4"
+    },
+    {
+      "path": "archive/source-scripts/build_os_teaching_pdf.py",
+      "bytes": 4785,
+      "git_blob_sha1": "11d9e9a36bc40b1ade1bb9943e6c348785693fc3"
+    },
+    {
+      "path": "archive/source-scripts/capture_os_commands.py",
+      "bytes": 2533,
+      "git_blob_sha1": "4353c507d56619f20e4a1ba200451fc9f1ae3fdf"
+    },
+    {
+      "path": "archive/source-scripts/check_os_workflows.py",
+      "bytes": 1696,
+      "git_blob_sha1": "071e1ade9f9d178dc5c213d11b171fe259f8d8fa"
+    },
+    {
+      "path": "archive/source-scripts/render_os_recording.py",
+      "bytes": 5434,
+      "git_blob_sha1": "bc1720c15e8ec6f43ee9dcfe8de34d58da872d11"
+    },
+    {
+      "path": "archive/source-scripts/render_report.py",
+      "bytes": 10112,
+      "git_blob_sha1": "83b3ceec9e9e86f99ae8fee14abbb114fdbc4d8e"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/README.md",
+      "bytes": 2193,
+      "git_blob_sha1": "b27a98d7a87fd07549e70fcc6a7cf6df67ee2939"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/benchmark.json",
+      "bytes": 26875,
+      "git_blob_sha1": "96b9c732e36079cf6cec05a9dabf2af43b48136e"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/configuration_lengths.json",
+      "bytes": 152,
+      "git_blob_sha1": "3e0337b0fa3dac7139313df7923cbac22429bb30"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/feasibility_pilot.py",
+      "bytes": 2243,
+      "git_blob_sha1": "3122b3880f257e5964048edfdffc2698209c2461"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/feasibility_results.json",
+      "bytes": 2092,
+      "git_blob_sha1": "17addad2287efa4b56405028aec227a83f70fa50"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/fixtures.json",
+      "bytes": 2586,
+      "git_blob_sha1": "cefbf3dddee291c3f384df865b731845f7d3d2aa"
+    },
+    {
+      "path": "benchmarks/chatgpt-24-tasks/results_template.json",
+      "bytes": 109466,
+      "git_blob_sha1": "7404de7f8a4640d19105484473c4f291ac549608"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 3438,
+      "git_blob_sha1": "13e0202633d7640b3187baf7530c3b7952f603ff"
+    },
+    {
+      "path": "docs/ROADMAP_PROPOSAL.md",
+      "bytes": 3843,
+      "git_blob_sha1": "26ca1454771ff1f4104b342308532252a1b19229"
+    },
+    {
+      "path": "docs/teaching/GitHub_Preservation_Guide.md",
+      "bytes": 6115,
+      "git_blob_sha1": "ddc9569257a02d82b3a3429a10271946899ce51a"
+    },
+    {
+      "path": "examples/workflow-checks/README.md",
+      "bytes": 920,
+      "git_blob_sha1": "c58fda4c8807cb24f6625d6193ef098c47b6393a"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/CURRENT_BRIEF.md",
+      "bytes": 410,
+      "git_blob_sha1": "2ab38c2ec9411a060cf231339b3d292d20a175dd"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/DECISIONS.md",
+      "bytes": 2335,
+      "git_blob_sha1": "1a74a10426843c470e0dd3520db7486e8b3d99bb"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/IMPLEMENTATION_LEDGER.md",
+      "bytes": 3934,
+      "git_blob_sha1": "e178bdaa8ff3ee24cfc689ad0626d2eef439378a"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/PROJECT_BRIEF.md",
+      "bytes": 1734,
+      "git_blob_sha1": "dca14453eb81339022c98a3db3abb53d99794918"
+    },
+    {
+      "path": "examples/workflow-checks/research-to-implementation/RESEARCH.md",
+      "bytes": 739,
+      "git_blob_sha1": "02221c071a9ce2cd090fa11fe4f2f6145a712903"
+    },
+    {
+      "path": "examples/workflow-checks/teach-and-repeat/Teaching_Guide.md",
+      "bytes": 5183,
+      "git_blob_sha1": "91179d6043085188d1114c6193a8a8af134ca738"
+    },
+    {
+      "path": "examples/workflow-checks/verified-execution/clean_rows.py",
+      "bytes": 241,
+      "git_blob_sha1": "ff8e8165df79c81855a0af4875f636b7ad9a0683"
+    },
+    {
+      "path": "scripts/check_workflows.py",
+      "bytes": 1701,
+      "git_blob_sha1": "d7b5784c3c3c92f4c52045b0bf695b76e485c862"
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "bytes": 4960,
+      "git_blob_sha1": "ea830cb981a5a4bffc1eacc3eee016f042aa9593"
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 886,
+      "git_blob_sha1": "36a2735b3e4aff6c10c4fe27421fac1667868d94"
+    },
+    {
+      "path": "skills/decision-experiment/SKILL.md",
+      "bytes": 2111,
+      "git_blob_sha1": "eb3e14614b0fb511c902b440efabc6e082d4e783"
+    },
+    {
+      "path": "skills/decision-experiment/agents/openai.yaml",
+      "bytes": 374,
+      "git_blob_sha1": "338fd6ae74ed3433b77cfe435172f0fcac7ccfec"
+    },
+    {
+      "path": "skills/decision-experiment/assets/icon.svg",
+      "bytes": 420,
+      "git_blob_sha1": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+    },
+    {
+      "path": "skills/evidence-research/SKILL.md",
+      "bytes": 1983,
+      "git_blob_sha1": "6c0d7ca4c948874e1a78a4262e7dab46d1050b9e"
+    },
+    {
+      "path": "skills/evidence-research/agents/openai.yaml",
+      "bytes": 383,
+      "git_blob_sha1": "344c11a3eb2429391095bb35fd757107d579e35c"
+    },
+    {
+      "path": "skills/evidence-research/assets/icon.svg",
+      "bytes": 843,
+      "git_blob_sha1": "3aa5522d9c0f47cbeaabca31dcbcb2111d99531b"
+    },
+    {
+      "path": "skills/research-to-implementation/SKILL.md",
+      "bytes": 4306,
+      "git_blob_sha1": "69cdee43beb61ad477441df272d092611b44eb7d"
+    },
+    {
+      "path": "skills/research-to-implementation/agents/openai.yaml",
+      "bytes": 437,
+      "git_blob_sha1": "4ddd8a573b29dd8ee762f121c82771bde87c040b"
+    },
+    {
+      "path": "skills/research-to-implementation/assets/icon.svg",
+      "bytes": 420,
+      "git_blob_sha1": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+    },
+    {
+      "path": "skills/teach-and-repeat/SKILL.md",
+      "bytes": 4618,
+      "git_blob_sha1": "1f94ce06aefd5801dff323c15345c4bd2918475e"
+    },
+    {
+      "path": "skills/teach-and-repeat/agents/openai.yaml",
+      "bytes": 390,
+      "git_blob_sha1": "72781429090c3d937665914b674b46f1937b3dd3"
+    },
+    {
+      "path": "skills/teach-and-repeat/assets/icon.svg",
+      "bytes": 1210,
+      "git_blob_sha1": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+    },
+    {
+      "path": "skills/teach-and-repeat/references/secure-account-setup.md",
+      "bytes": 2579,
+      "git_blob_sha1": "2941894ab3669bbe49775e7abaf40fa24da42d32"
+    },
+    {
+      "path": "skills/verified-execution/SKILL.md",
+      "bytes": 2088,
+      "git_blob_sha1": "bb68d43e26611a9dc498861a90af2c58b8d8814d"
+    },
+    {
+      "path": "skills/verified-execution/agents/openai.yaml",
+      "bytes": 372,
+      "git_blob_sha1": "c897d58f9c0449e7b01895b42826bdd004586481"
+    },
+    {
+      "path": "skills/verified-execution/assets/icon.svg",
+      "bytes": 786,
+      "git_blob_sha1": "f19f1b68e96ba7df24829e7aec93ebd17396a341"
+    },
+    {
+      "path": "verification/export_local_validation.json",
+      "bytes": 347,
+      "git_blob_sha1": "30e9cc0691be4c018944e41831d20d80f62cd796"
+    },
+    {
+      "path": "verification/export_manifest.json",
+      "bytes": 18730,
+      "git_blob_sha1": "858921c968f6455e83d4dde9ec234278319e9f03"
+    },
+    {
+      "path": "verification/export_validation_attempts.json",
+      "bytes": 784,
+      "git_blob_sha1": "3b26c6a283388b4b8eb06b2d1581c5b4413ba7fe"
+    },
+    {
+      "path": "verification/prior_report_validation.json",
+      "bytes": 713,
+      "git_blob_sha1": "f40a897093a4d38e475f8cb7f021596b398e3fdf"
+    },
+    {
+      "path": "verification/prior_skill_installations.json",
+      "bytes": 1185,
+      "git_blob_sha1": "3778fd89826eea812cf8b5d06d54695ce76d19db"
+    },
+    {
+      "path": "verification/remote_verification.json",
+      "bytes": 129,
+      "git_blob_sha1": "cd38cf05d76d74681077cfbd78342d619e41411d"
+    }
+  ]
 }

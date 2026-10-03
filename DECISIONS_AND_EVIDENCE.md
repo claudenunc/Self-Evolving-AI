@@ -12,7 +12,8 @@ Updated 2026-10-03. These records cover the repository preservation task; prior 
 | Keep reviewed teaching media | Three other screenshots were visually inspected; the guide's builder references those three. Reports, PDF guide, raw permitted cast, and MP4 are included. | Applied export |
 | Keep fixture budgets separate | The $250/$500 amounts occur in bounded workflow-evaluation examples. They do not authorize spending for this project. | Applied documentation |
 | Reuse Teach and Repeat | It already supports documentation and reusable processes. This backup adds a guide and verification script without a duplicate installed skill. | Applied |
-| Preserve history; use authenticated GitHub operations if needed | Clone/read access works. GitHub connection provides repository write operations. No force update is needed. | Implementation rule |
+| Publish through the GitHub connection | Shell push failed for missing shell authentication. The authenticated plugin published the reviewed tree using a normal main update with no force. | Applied |
+| Verify the remote payload independently | Read main and its recursive tree; all 78 paths, sizes, and Git blob IDs matched. Payload commit: 8efe56dd18f620bdb4ec921a71ac94f604a33349. | Verified |
 | Keep broader orchestration as a proposal | User requested preservation first, followed by thoughts and joint planning. | Proposed only |
 | Retain the existing intelligence trial | Prior records specify four Mondays and no automatic renewal. This task creates no new recurring job. | Unchanged; not reread from task service |
 

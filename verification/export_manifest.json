@@ -29,21 +29,21 @@
     },
     {
       "path": "DECISIONS_AND_EVIDENCE.md",
-      "bytes": 3179,
-      "sha256": "a2310a9c6befec87eb3869eb612a319c71855faab3334a6ab041ba99b586d4e7",
-      "git_blob_sha1": "31ca9b800ed5083b5f8debae57d4109aaf3a2489"
+      "bytes": 3376,
+      "sha256": "d77d298d9e7e317961215d229a142e53f9be910cebaa4b3757b4e6be88f42b3a",
+      "git_blob_sha1": "65ccc9c862b278bf3ff03f19853c6236a151570f"
     },
     {
       "path": "HANDOFF.md",
-      "bytes": 2042,
-      "sha256": "6ce688a5e201e1b9d657ad218b958fd7f80696215844ab9ed6fc759c912655de",
-      "git_blob_sha1": "3524f8d80cd815ab30465d7102e1e17760bbb4cc"
+      "bytes": 3081,
+      "sha256": "f54bb6dc0b27390af23ab7c87e330903d78303c0f2cc233e1dfd63a24952be30",
+      "git_blob_sha1": "3a042dab33409ff8b2b2f89347299a9ce51ebe7b"
     },
     {
       "path": "PROJECT_BRIEF.md",
-      "bytes": 3265,
-      "sha256": "98da9a0e28ec64d2545f16ed3516427fffa457b61e83be0f71cac98ca8fa2ca3",
-      "git_blob_sha1": "3f1d2e5e158697f173b2fdea00526b632013cd96"
+      "bytes": 3561,
+      "sha256": "9ea4131b4adcb3cb5c323c6cd4c88ae41edd94bfca7a92e9305d96e968ae0436",
+      "git_blob_sha1": "7a892241ff6813871e46841b4619aed1a6c95912"
     },
     {
       "path": "README.md",
@@ -269,9 +269,9 @@
     },
     {
       "path": "docs/teaching/GitHub_Preservation_Guide.md",
-      "bytes": 6115,
-      "sha256": "d38a7a66b891936e6974a22fecc9816ad389c5964eba3bd335f4fa2b4cbad92f",
-      "git_blob_sha1": "ddc9569257a02d82b3a3429a10271946899ce51a"
+      "bytes": 6773,
+      "sha256": "5a70fc19cf1123d4e54efeb8990c90e412c300a27243da772802ccda79a82504",
+      "git_blob_sha1": "d2416ec20eb1f7cfa377778df53ec241b8627328"
     },
     {
       "path": "examples/workflow-checks/README.md",
@@ -329,9 +329,9 @@
     },
     {
       "path": "scripts/verify_repository.py",
-      "bytes": 4960,
-      "sha256": "33860ea2206eb58c6fbac28db140f1fef9e79abeebb34e1fad74fc6c8d19163e",
-      "git_blob_sha1": "ea830cb981a5a4bffc1eacc3eee016f042aa9593"
+      "bytes": 6720,
+      "sha256": "72d2f41d35ec9a00b77aa2b8104692a2650450e71d827cbe47ecdb037def019c",
+      "git_blob_sha1": "f9b1f24c77e0845b0cff8bef7e27f3f2c2506ff5"
     },
     {
       "path": "skills/README.md",

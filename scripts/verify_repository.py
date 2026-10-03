@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
 import zipfile
 from pathlib import Path
@@ -85,11 +86,41 @@ def verify():
             "model_trials_run": 0, "problems": problems}
 
 
+def verify_git_ref(ref):
+    """Compare an already-fetched Git commit against every tracked local file."""
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_/.-]*", ref):
+        raise ValueError("Use a normal fetched Git ref or commit SHA")
+    commit = subprocess.check_output(
+        ["git", "-C", str(ROOT), "rev-parse", "--verify", ref + "^{commit}"],
+        text=True).strip()
+    raw = subprocess.check_output(
+        ["git", "-C", str(ROOT), "ls-tree", "-rz", "-l", commit])
+    observed = {}
+    for record in raw.decode().split("\0"):
+        if not record:
+            continue
+        metadata, name = record.split("\t", 1)
+        mode, kind, sha, size = metadata.split()
+        if kind != "blob":
+            raise ValueError("Submodules require a separate verification procedure")
+        observed[name] = {"sha": sha, "bytes": int(size)}
+    names = subprocess.check_output(
+        ["git", "-C", str(ROOT), "ls-files", "-z"]).decode().split("\0")
+    expected = {name: describe(ROOT / name) for name in names if name}
+    mismatches = [name for name in sorted(set(expected) | set(observed))
+                  if name not in expected or name not in observed
+                  or expected[name]["git_blob_sha1"] != observed[name]["sha"]
+                  or expected[name]["bytes"] != observed[name]["bytes"]]
+    return {"passed": not mismatches, "ref": ref, "commit_sha": commit,
+            "files_checked": len(expected), "mismatches": mismatches}
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--write-manifest", action="store_true",
                         help="Refresh only after intentionally reviewing payload changes")
     parser.add_argument("--report", type=Path, help="Optional JSON result path")
+    parser.add_argument("--remote-ref", help="Compare an already-fetched Git ref with every tracked local file")
     args = parser.parse_args()
     if args.write_manifest:
         MANIFEST.parent.mkdir(exist_ok=True)
@@ -98,6 +129,9 @@ if __name__ == "__main__":
             "scope": "Project payload; manifest and verification receipts excluded to avoid self-reference",
             "files": [describe(p) for p in payload_files()]}, indent=2) + "\n")
     result = verify()
+    if args.remote_ref:
+        result["remote"] = verify_git_ref(args.remote_ref)
+        result["passed"] = result["passed"] and result["remote"]["passed"]
     if args.report:
         args.report.write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps(result, indent=2))
